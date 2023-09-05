@@ -1,0 +1,238 @@
+#root {
+   height: 100vh;
+   box-sizing: border-box;
+   width: 100vw;
+}
+
+
+body {
+   height: 100vh;
+   width: 100vw;
+   font-family: 'Inter', sans-serif;
+}
+
+input {
+   font-family: 'Inter', sans-serif;
+}
+
+.Navbar {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+.navbar {
+   height: 10vh;
+   display: flex;
+   align-items: center;
+}
+
+.navbar a {
+   text-decoration: none;
+}
+
+#delete-button {
+   margin-left: auto;
+}
+
+.empty-container-ac {
+   background-color: #3874CB;
+}
+
+#usernameSpan {
+   padding-left: 12px;
+}
+
+/* SignUpForm.css */
+
+.container {
+   width: 400px;
+   padding: 20px;
+   margin: 0 auto;
+   background-color: #f0f0f0;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+}
+
+h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+   margin-bottom: 10px;
+}
+
+.signup-form input {
+   box-sizing: border-box;
+   width: 100%;
+   padding: 8px;
+   border-radius: 3px;
+   border: 1px solid #ccc;
+   margin-bottom: 10px;
+}
+
+button[type="submit"] {
+   padding: 10px 20px;
+   background-color: #4287f5;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+button[type="submit"]:hover {
+   background-color: #2e66c7;
+}
+
+.error-message {
+   color: red;
+   margin-top: 10px;
+}
+
+/* LoginForm.css */
+
+.form-group {
+   margin-bottom: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.form-group label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.form-group input {
+   box-sizing: border-box;
+   width: 100%;
+   padding: 8px;
+   border-radius: 3px;
+   border: 1px solid #ccc;
+}
+
+.form-group input:focus {
+   outline: none;
+}
+
+.error-message {
+   color: red;
+   margin-top: 10px;
+}
+
+.button-container {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.button-container button {
+   padding: 10px 20px;
+   background-color: #4287f5;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.button-container button:hover {
+   background-color: #2e66c7;
+}
+
+.signup-link {
+   display: block;
+   text-align: center;
+   margin-top: 20px;
+   color: #4287f5;
+}
+
+.link-button {
+   display: block;
+   text-align: center;
+   color: #4287f5;
+   width: auto;
+}
+
+
+#container {
+   width: 100%;
+   height: 100vh;
+   overflow: auto;
+}
+
+.loading-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 50px;
+}
+
+h4 {
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+h6 {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+a {
+   color: inherit;
+}
+
+/* Searchbar.css */
+
+.searchbar input {
+   padding: 8px;
+   width: 90%;
+   height: 30px;
+   margin: 10px;
+   border-radius: 10px;
+   border: none;
+   background-color: #EFF2F5;
+
+}
+
+.searchbar input:focus {
+   outline: none
+}
+
+/* ActiveChat message input */
+#message-input {
+   width: 100%;
+   height: 40px;
+   border-radius: 8px;
+   border: 0;
+   outline: none;
+   margin: 0;
+   padding-left: 15px;
+   background: #E9EDEF;
+   box-shadow: 0px 10px 20px #e5e5e5;
+}
+
+#message-input:hover {
+   outline: none;
+}
+
+.messageContent {
+   word-break: break-all;
+}
+
+/* Per le transizioni */
+.active-chat {
+   transition: opacity ease-in 0.1s;
+}
+
+.icon-container {
+   transition: 0.1s;
+}
