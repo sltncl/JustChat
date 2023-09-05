@@ -9,3 +9,26 @@ Caratteristiche Principali:
 3. Sicurezza Avanzata: Il sistema di login è implementato con meccanismi di sicurezza avanzati e il mantenimento della sessione è gestito tramite l'utilizzo di token. Ciò garantisce che le informazioni degli utenti siano al sicuro e protette.
 4. Gestione degli Amici: Gli utenti hanno la possibilità di creare una lista di amici con cui interagire. Questa funzionalità richiede l'approvazione dell'utente, contribuendo a mantenere il controllo sulla propria rete di contatti.
 5. Comunicazione in Tempo Reale: L'efficace scambio di messaggi è reso possibile attraverso l'utilizzo di Server-Sent Events (SSE) e socket.io, che consentono una comunicazione in tempo reale tra il client e il server. Questo garantisce una risposta immediata e una percezione di real-time durante le conversazioni.
+
+Grafica:
+
+1. Pagina di Login:
+
+<img width="1552" alt="Screenshot 2023-09-05 alle 18 05 02" src="https://github.com/sltncl/JustChat/assets/102429856/a91a6795-79a5-4e2d-98a3-415fa2b458a0">
+
+2. Pagina di Registrazione: 
+
+<img width="1552" alt="Screenshot 2023-09-05 alle 18 05 12" src="https://github.com/sltncl/JustChat/assets/102429856/4da129e0-87f1-4154-b54c-6e3a1e5d7131">
+
+3. Pagina delle chat:
+
+<img width="1552" alt="Screenshot 2023-09-05 alle 18 05 54" src="https://github.com/sltncl/JustChat/assets/102429856/9ad5a555-00f3-415b-b5a9-1c5017f701b3">
+
+4. Pagina delle amicizie:
+   
+<img width="1552" alt="Screenshot 2023-09-05 alle 18 05 28" src="https://github.com/sltncl/JustChat/assets/102429856/b0e273b4-c80e-4261-9065-60e03345cd2e">
+
+
+
+
+
